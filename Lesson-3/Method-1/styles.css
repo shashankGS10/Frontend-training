@@ -1,0 +1,30 @@
+body{
+    display: block;
+    background-color: #ecf0f1;
+    margin: 0;
+}
+.card{
+    display: inline-block;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    margin: 10px;
+}
+.main-container{
+        position: absolute;
+        overflow-x: scroll;
+        display: inline-flex;
+        margin-top: calc(100vh - 90vh);
+}
+.header{
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+    top: 0;
+    left: 0;
+    z-index: 999;
+    background-color: rgb(71, 130, 240);
+}
+.cards-col{
+    margin: 0 3em;
+}
