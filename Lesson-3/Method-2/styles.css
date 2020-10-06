@@ -1,0 +1,34 @@
+body{
+    background-color: #ecf0f1;
+    margin: 0;
+}
+.card{
+    display: flex;
+flex-direction: column;
+    border: 1px solid black;
+    height: 300px;
+    width: 200px;
+    margin: 2em;
+}
+.main-container{
+        position: absolute;
+        overflow-x: scroll;
+        display: flex;
+        flex-direction: row;
+        margin-top: calc(100vh - 90vh);
+}
+.header{
+    display: flex;
+    flex-direction: row;
+    position: fixed;
+    z-index: 999;
+    background-color: rgb(71, 130, 240);
+    width: -webkit-fill-available;
+    padding: 0.5em;
+    justify-content: flex-start;
+}
+.cards-col{
+    display: flex;
+flex-direction: column;
+    margin: 0 3em;
+}
